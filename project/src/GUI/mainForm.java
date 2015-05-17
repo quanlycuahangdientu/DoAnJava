@@ -27,18 +27,34 @@ public class mainForm extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        jdtpMain = new javax.swing.JDesktopPane();
+        jmnMain = new javax.swing.JMenuBar();
+        jmnFile = new javax.swing.JMenu();
+        jmnEdit = new javax.swing.JMenu();
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        javax.swing.GroupLayout jdtpMainLayout = new javax.swing.GroupLayout(jdtpMain);
+        jdtpMain.setLayout(jdtpMainLayout);
+        jdtpMainLayout.setHorizontalGroup(
+            jdtpMainLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 400, Short.MAX_VALUE)
         );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+        jdtpMainLayout.setVerticalGroup(
+            jdtpMainLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 279, Short.MAX_VALUE)
         );
+
+        getContentPane().add(jdtpMain, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+
+        jmnFile.setText("File");
+        jmnMain.add(jmnFile);
+
+        jmnEdit.setText("Edit");
+        jmnMain.add(jmnEdit);
+
+        setJMenuBar(jmnMain);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -79,5 +95,9 @@ public class mainForm extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JDesktopPane jdtpMain;
+    private javax.swing.JMenu jmnEdit;
+    private javax.swing.JMenu jmnFile;
+    private javax.swing.JMenuBar jmnMain;
     // End of variables declaration//GEN-END:variables
 }
