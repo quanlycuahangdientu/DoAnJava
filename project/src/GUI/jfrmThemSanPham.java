@@ -35,17 +35,17 @@ public class jfrmThemSanPham extends javax.swing.JInternalFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(311, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(80, 80, 80)
                 .addComponent(jButton1)
-                .addContainerGap())
+                .addContainerGap(241, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(244, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(118, 118, 118)
                 .addComponent(jButton1)
-                .addContainerGap())
+                .addContainerGap(137, Short.MAX_VALUE))
         );
 
         pack();
